@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 15px;
+    background-image: url('../../Images/Harvard.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgba(29, 27, 27, 0.567);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;;
+}
+.form-title{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.title{
+    color: white;
+    font-size: 2.5rem;
+}
+.login-form input[type="text"],.login-form input[type="password"]{
+    padding: 10px;
+    width: 80%;
+    outline: none;
+    border-radius: 15px;
+}
+.login-form{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+    width: 60%;
+    text-align: center;
+}
+.login-form .btn{
+    color: white;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: black;
+}
+.login-form .btn:hover{
+    cursor: pointer;
+    background-color: rgb(159, 146, 146);
+    color: black;
+}
+.container img{
+    width: 180px;
+}
+#id-icon,#password-icon{
+    position: relative;
+    left: 270px;
+    top: 5px;
+    color: black;
+}
+@media screen and (max-width:1200px){
+    .container{
+        width: 80%;
+    }
+    .form-title{
+        flex-direction: column;
+    }
+    .container{
+        overflow-y: auto;
+    }
+}
