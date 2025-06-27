@@ -5,13 +5,13 @@ Student Management
   Store student profiles with secure hashed passwords, academic majors, emails, and personal data.
 
 Course Management
-  Define courses with codes, credit values, associated majors, and semesters of availability.
+Define courses with codes, credit values, associated majors, and semesters of availability.
 
 Semester Management
-  Create and manage academic terms.
+Create and manage academic terms.
 
 Enrollment System
-  Track student enrollment in semesters and individual courses.
+Track student enrollment in semesters and individual courses.
 
 Statistical Visualization
-  Visualize the distribution of students across different majors using Google Charts.
+Visualize the distribution of students across different majors using Google Charts.
